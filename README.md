@@ -15,7 +15,6 @@ Need support? Join my discord. https://discord.gg/6SCshsRxch
 - Easy configuration through `config.lua`
 - Customize sellable items and payout prices
 - Change pawn shop NPC and location
-- Optional opening hours system
 - Supports custom economy and loot items
 - Simple ESX integration
 - Beginner-friendly setup
