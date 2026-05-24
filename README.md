@@ -2,7 +2,7 @@
 
 A lightweight and fully configurable pawn shop script for ESX-based FiveM servers.
 
-attano-pawnshop gives players a realistic way to sell valuables, stolen goods, crafting materials, and other configurable items through an immersive pawn shop system designed for roleplay and economy servers.
+attano_pawnshop gives players a realistic way to sell valuables, stolen goods, crafting materials, and other configurable items through an immersive pawn shop system designed for roleplay and economy servers.
 
 ---
 
@@ -51,13 +51,13 @@ The script is designed to be easily expandable for custom RP servers, robbery sy
 
 ```bash
 cd resources
-git clone https://github.com/YOURNAME/attano-pawnshop
+git clone https://github.com/YOURNAME/attano_pawnshop
 ```
 
 ### Manual Installation
 
 1. Download this resource
-2. Place `attano-pawnshop` inside your server's resources folder
+2. Place `attano_pawnshop` inside your server's resources folder
 
 ---
 
@@ -66,7 +66,7 @@ git clone https://github.com/YOURNAME/attano-pawnshop
 Add this to your `server.cfg`:
 
 ```cfg
-ensure attano-pawnshop
+ensure attano_pawnshop
 ```
 
 ---
