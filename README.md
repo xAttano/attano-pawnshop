@@ -1,4 +1,4 @@
-# attano-pawnshop
+# attano_pawnshop
 
 A lightweight and fully configurable pawn shop script for ESX-based FiveM servers.
 
