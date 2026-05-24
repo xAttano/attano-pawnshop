@@ -1,61 +1,98 @@
 # attano-pawnshop
 
-A lightweight and configurable pawn shop script for ESX-based FiveM servers.
+A lightweight and fully configurable pawn shop script for ESX-based FiveM servers.
 
-Features
-Sell configurable items to a pawn shop
-Simple and optimized ESX integration
-Easy-to-edit configuration
-Customize sellable items and payout prices
-Change pawn shop NPC and location
-Optional opening hours system
-Lightweight and performance friendly
-Great for RP, economy, survival, and crime servers
-Dependencies
-ESX Framework
-ox_inventory (recommended)
-ox_lib (if required by your version)
-Configuration
+attano-pawnshop gives players a realistic way to sell valuables, stolen goods, crafting materials, and other configurable items through an immersive pawn shop system designed for roleplay and economy servers.
 
-Inside config.lua you can customize:
+---
 
-Pawn shop location
-NPC model
-Sellable items
-Item prices
-Opening hours
-Blip settings
-Interaction distance
-Notifications and various behavior settings
+## Features
 
-The script is designed to be easy to expand, allowing you to add your own custom economy items, robbery loot, crafting materials, or server-specific items.
+- Sell configurable items to the pawn shop
+- Lightweight and optimized performance
+- Easy configuration through `config.lua`
+- Customize sellable items and payout prices
+- Change pawn shop NPC and location
+- Optional opening hours system
+- Supports custom economy and loot items
+- Simple ESX integration
+- Beginner-friendly setup
 
-Download & Installation
-Using Git
+---
+
+## Dependencies
+
+- ESX Framework
+- ox_inventory *(recommended)*
+- ox_lib *(if required by your version)*
+
+---
+
+## Configuration
+
+Inside `config.lua` you can customize:
+
+- Pawn shop location
+- NPC model
+- Sellable items
+- Item payout prices
+- Opening hours
+- Blips and interaction settings
+- Notification behavior
+- Various gameplay settings
+
+The script is designed to be easily expandable for custom RP servers, robbery systems, crafting systems, survival servers, and economy-based gameplay.
+
+---
+
+## Download & Installation
+
+### Using Git
+
+```bash
 cd resources
 git clone https://github.com/YOURNAME/attano-pawnshop
-Manual Installation
-Download the resource
-Place attano-pawnshop into your resources folder
-Installation
+```
 
-Add this to your server.cfg:
+### Manual Installation
 
+1. Download this resource
+2. Place `attano-pawnshop` inside your server's resources folder
+
+---
+
+## Installation
+
+Add this to your `server.cfg`:
+
+```cfg
 ensure attano-pawnshop
-Use Cases
+```
 
-attano-pawnshop works great for:
+---
 
-Economy servers
-Serious roleplay servers
-Gang and crime systems
-Robbery loot selling
-Crafting material trading
-Survival progression servers
-Support
+## Perfect For
 
-If you run into issues or want to check out more premium releases, visit the Attano Scripts pages and community links.
+- Economy servers
+- Serious RP servers
+- Gang and crime systems
+- Robbery loot selling
+- Crafting material trading
+- Survival progression servers
 
-Keywords
+---
 
-FiveM pawnshop script, ESX pawnshop, FiveM ESX scripts, FiveM economy resource, item selling script, FiveM roleplay scripts, ESX item trader, pawn broker system, ox_inventory pawnshop, free FiveM scripts
+## Additional Terms
+
+You may use and modify this resource for your server.
+
+You may not resell, redistribute, or reupload this resource without permission.
+
+Credit to Attano Scripts is appreciated.
+
+---
+
+## Keywords
+
+FiveM pawnshop script, ESX pawnshop, FiveM ESX scripts, FiveM economy resource, FiveM item selling script, ESX item trader, FiveM roleplay scripts, pawn broker system, ox_inventory pawnshop, free FiveM scripts
+```
